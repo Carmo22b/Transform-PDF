@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.2/mammoth.browser.min.js"></script>
+    <title>Transform PDF</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Converte imagens ou documentos para PDF</h1>
+
+        <a href="./suportados.html">Tipos suportados. (Clique aqui)</a>
+
+        <input type="file" id="input_arquivo">
+
+        <div id="prever"></div>
+
+        <button id="converter">Converter para PDF</button>
+
+        <p id="status"></p>
+    </div>
+
+    <script src="./js/control.js"></script>
+</body>
+
+</html>
